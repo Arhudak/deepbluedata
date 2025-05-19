@@ -1,4 +1,4 @@
-<!-- Last updated: 2025/05/01 -->
+<!-- Last updated: 2025/05/19 -->
 
     <style>
       /* Icon style */
@@ -14,6 +14,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: max-content;
       }
   
       .icon.green {
@@ -36,7 +37,7 @@
       .legend {
         display: flex;
         align-items: center;
-        margin-top: 10px;
+        /* margin-top: 10px; */
       }
   
       .legend-item {
@@ -65,11 +66,18 @@
         margin-bottom: 30px; 
       }
 
+      p#compliance-key {
+        margin-bottom: 0px; 
+      }
+
       section {
         padding-bottom: 20px; 
       }
-    </style>
 
+      section#questions-note {
+        margin-top: 30px; 
+      }
+    </style>
 
 
 <h1>Deep Blue Data meets the OSTP desirable characteristics of data repositories</h1>
@@ -84,6 +92,7 @@
     <li><a href="#storing-human-data">Storing Human Data</a></li>
 </ul>
 
+<section>
 <p id="compliance-key">Compliance key:</p>
     <div class="legend">
         <div class="legend-item"><span class="icon green"></span><span>Fully Met</span></div>
@@ -91,10 +100,10 @@
         <div class="legend-item"><span class="icon red"></span><span>Not Met</span></div>
         <div class="legend-item"><span class="icon grey"></span><span>Unknown</span></div>
       </div>
-
-</div>
+    </section>
+<section id="questions-note">
 <p>If you have any questions, please <a href="/data/contact" target="_blank">Contact Us</a>.</p>
-
+</section>
 <section id="org-infrastructure">
     <h2>Organizational Infrastructure</h2>
     <table>
